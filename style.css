@@ -1,0 +1,396 @@
+.main-body {
+    background-image: url("resource/2.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    background-image: url("resource/Logo2img.svg");
+    height: 200px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header0 {
+    /* position: fixed; */
+    transition: 0.6s;
+    z-index: 100;
+}
+
+.headerList {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerItem {
+    position: relative;
+    list-style: none;
+}
+
+.headerText {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+}
+
+.headerText:hover {
+    cursor: pointer;
+}
+
+.srch {
+    /* background-color: aliceblue; */
+    border-radius: 100px;
+}
+
+#basic_search_txt:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#basic_search_select:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.sticky {
+    position: fixed;
+    padding: 5px 100px;
+    /* border-radius: 50px; */
+    /* background-color: rgb(44, 44, 44); */
+    /* background-color: rgb(26, 26, 64); */
+    background-color: rgb(59, 31, 43);
+    /* background-color: rgb(51, 51, 51); */
+    /* background-color: rgb(42, 52, 57); */
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url("font/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Honey";
+    src: url("font/HoneyScript-Light.ttf");
+}
+
+@font-face {
+    font-family: "Char";
+    src: url("font/char.ttf");
+}
+
+@font-face {
+    font-family: "Nulshock";
+    src: url("font/nulshock bd.otf");
+}
+
+@font-face {
+    font-family: "Conthrax";
+    src: url("font/conthrax-sb.ttf");
+}
+
+* {
+    font-family: "Quicksand";
+    font-size: 14px;
+}
+
+.title1 {
+    font-family: "Char";
+    font-size: 35px;
+}
+
+.title0 {
+    font-family: "Quicksand";
+    font-size: 20px;
+}
+
+.title2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cart-icon {
+    background-image: url("resource/cartico.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.poster-img-1 {
+    /* height: 100vh; */
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.poster-caption {
+    margin-bottom: 180px;
+}
+
+.poster-title {
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.poster-text {
+    font-size: 20px;
+    color: gray;
+}
+
+.poster-caption-1 {
+    margin-bottom: 60px;
+    margin-right: 450px;
+}
+
+.Scurser:hover {
+    cursor: pointer;
+}
+
+.cd:hover{
+    box-shadow: 0 4px 8px rgba(182, 177, 116, 0.8);
+    
+}
+
+.kkkk:hover{
+    cursor: zoom-in;
+}
+
+.pm {
+    height: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pmh {
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.pm1 {
+    background-image: url("payment methods/visa_img.png");
+}
+
+.pm2 {
+    background-image: url("payment methods/mastercard_img.png");
+}
+
+.pm3 {
+    background-image: url("payment methods/american_express_img.png");
+}
+
+.pm4 {
+    background-image: url("payment methods/paypal_img.png");
+}
+
+.singleProduct {
+    padding-top: 65px;
+    padding-bottom: 145px;
+    padding: 20px;
+}
+
+.main-img {
+    height: 745px;
+    background-image: url("mobile images/Samsung S22 5G_0_634ad46b37081.jpeg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.product-qty {
+    width: 105px;
+    height: 45px;
+    padding: 10px;
+}
+
+.qty-buttons {
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 30px;
+}
+
+.qty-inc,
+.qty-dec {
+    width: 100%;
+    height: 50%;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.qty-inc {
+    border-top-right-radius: 5px;
+}
+
+.qty-dec {
+    border-bottom-right-radius: 5px;
+}
+
+.logoImg {
+    height: 80px;
+    background-image: url("resource/logoicon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logotext {
+    height: 80px;
+    /* background-image: url("resource/logotext.svg"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.titleA {
+    font-family: "Char";
+}
+
+.barbkg {
+    background-image: linear-gradient(rgba(0, 149, 255, 0.711), rgb(25, 52, 131));
+}
+
+.mychart {
+    height: 500px;
+    background-image: url("resource/chart.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.details {
+    /* height: 80vh; */
+    /* overflow-y: scroll; */
+}
+
+/* price slider */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.double-slider-box {
+    background-color: #ffffff56;
+    padding: 20px 40px;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+h3.range-title {
+    margin-bottom: 4rem;
+}
+
+.range-slider {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    margin: 30px 0;
+    background-color: #8a8a8a;
+}
+
+.slider-track {
+    height: 100%;
+    position: absolute;
+    background-color: #fe696a;
+}
+
+.range-slider input {
+    position: absolute;
+    width: 100%;
+    background: none;
+    pointer-events: none;
+    top: 50%;
+    transform: translateY(-50%);
+    appearance: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 3px solid #FFF;
+    background: #FFF;
+    pointer-events: auto;
+    appearance: none;
+    cursor: pointer;
+    box-shadow: 0 .125rem .5625rem -0.125rem rgba(0, 0, 0, .25);
+}
+
+input[type="range"]::-moz-range-thumb {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 3px solid #FFF;
+    background: #FFF;
+    pointer-events: auto;
+    -moz-appearance: none;
+    cursor: pointer;
+    box-shadow: 0 .125rem .5625rem -0.125rem rgba(0, 0, 0, .25);
+}
+
+.tooltip{
+    padding: .25rem .5rem;
+    border: 0;
+    background: #2b2b2b;
+    color: #fff;
+    font-size: .75rem;
+    line-height: 1.2;
+    border-radius: .25rem;
+    bottom: 120%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.min-tooltip{
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    z-index: 5;
+}
+
+.max-tooltip{
+    right: 50%;
+    transform: translateX(50%) translateY(-100%);
+}
+
+.input-box {
+    display: flex;
+}
+
+.min-box,
+.max-box {
+    width: 90%;
+}
+
+.min-box {
+    padding-right: .5rem;
+    margin-right: .5rem;
+}
+
+.input-wrap {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+.input-addon{
+    display: flex;
+    align-items: center;
+    padding: .625rem 1rem;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6b6b6b;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #FFF;
+    border: 1px solid rgb(216, 214, 214);
+    border-radius: .25rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}

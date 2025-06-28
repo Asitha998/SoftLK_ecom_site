@@ -1,0 +1,10 @@
+old files/
+# Ignore all files in the old files directory
+
+cart1php
+
+manageUserOld.php
+adminPanelOld.php
+manageProductsOld.php
+
+profile images/*

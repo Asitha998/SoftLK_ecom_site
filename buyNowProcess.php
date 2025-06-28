@@ -11,8 +11,8 @@ if (isset($_SESSION["u"])) {
 
     $array;
     $order_id = uniqid();
-    $merchant_id = "1221508";
-    $merchant_secret = "Mjg3ODY0Mjc2MjI0MjE2OTA5OTQ0MTk4Mjk2Njc1NzI3MzQ5Nw==";
+    $merchant_id = "1111111";
+    $merchant_secret = "your_secret";
     $currency = "LKR";
 
     

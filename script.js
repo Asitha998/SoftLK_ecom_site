@@ -1145,7 +1145,7 @@ function payNow(id) {
                 // Put the payment variables here
                 var payment = {
                     "sandbox": true,
-                    "merchant_id": "1221508",    // Replace your Merchant ID
+                    "merchant_id": "1111111",    // Replace your Merchant ID
                     "return_url": "http://localhost/eshop/singleProductView.php?id=" + id,     // Important
                     "cancel_url": "http://localhost/eshop/singleProductView.php?id=" + id,     // Important
                     "notify_url": "http://sample.com/notify",

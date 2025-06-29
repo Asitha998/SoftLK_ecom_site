@@ -1,12 +1,11 @@
 # SoftLK
 
-SoftLK is a web-based application designed to streamline and enhance your software management processes. This project is built using PHP and runs on the XAMPP server.
+SoftLK is a web-based ecommerce application designed to sell video games. This project is built using PHP and runs on the XAMPP server.
 
 ## Features
 
 - User-friendly interface
 - Efficient software tracking
-- Customizable settings
 - Scalable architecture
 
 ## Requirements

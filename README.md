@@ -18,7 +18,7 @@ SoftLK is a web-based ecommerce application designed to sell video games. This p
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/SoftLK.git
+    git clone https://github.com/Asitha998/SoftLK_ecom_site.git
     ```
 2. Move the project to your XAMPP `htdocs` directory:
     ```bash
